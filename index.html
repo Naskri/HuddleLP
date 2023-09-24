@@ -30,47 +30,52 @@
           <a href="#" class="link link--navigation"> Try It Free </a>
         </nav>
         <main class="main">
-          <header class="header">
-            <h1 class="heading__primary">
-              Build The Community Your Fans Will Love
-            </h1>
-            <p class="paragraph">
-              Huddle re-imagines the way we build communities. You have a voice,
-              but so does your audience. Create connections with your users as
-              you engage in genuine discussion.
-            </p>
-            <a href="#" class="link link--cta"> Get Started For Free </a>
-          </header>
-          <section class="statistics">
-            <img
-              src="./images/screen-mockups.svg"
-              alt="Screen mockups"
-              class="statistics__image"
-            />
-            <ul class="statistics__list">
-              <li class="statistics__item">
-                <img
-                  src="./images/icon-communities.svg"
-                  alt=""
-                  class="statistics__icon"
-                />
-                <strong class="statistics__title">1.4k+</strong>
-                <p class="statistics__title">Communities Formed</p>
-              </li>
-              <li class="statistics__item">
-                <img
-                  src="./images/icon-messages.svg"
-                  alt=""
-                  class="statistics__icon"
-                />
-                <strong class="statistics__title">2.7m+</strong>
-                <p class="statistics__title">Messages Sent</p>
-              </li>
-            </ul>
-          </section>
+          <div class="wrapper wrapper--small">
+            <header class="header">
+              <h1 class="heading__primary">
+                Build The Community Your Fans Will Love
+              </h1>
+              <div class="header__content">
+                <p class="paragraph">
+                  Huddle re-imagines the way we build communities. You have a
+                  voice, but so does your audience. Create connections with your
+                  users as you engage in genuine discussion.
+                </p>
+                <a href="#" class="link link--cta"> Get Started For Free </a>
+              </div>
+            </header>
+            <section class="statistics">
+              <img
+                src="./images/screen-mockups.svg"
+                alt="Screen mockups"
+                class="statistics__image"
+              />
+              <ul class="statistics__list">
+                <li class="statistics__item">
+                  <img
+                    src="./images/icon-communities.svg"
+                    alt=""
+                    class="statistics__icon"
+                  />
+                  <strong class="statistics__value">1.4k+</strong>
+                  <p class="statistics__title">Communities Formed</p>
+                </li>
+                <li class="statistics__item">
+                  <img
+                    src="./images/icon-messages.svg"
+                    alt=""
+                    class="statistics__icon"
+                  />
+                  <strong class="statistics__value">2.7m+</strong>
+                  <p class="statistics__title">Messages Sent</p>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
           <section class="z-pattern">
-            <div class="z-pattern__item">
-              <picture class="curve">
+            <div class="z-pattern__container">
+              <picture class="curve curve--top">
                 <source
                   srcset="./images/bg-section-top-mobile-1.svg"
                   media="(max-width:676px)"
@@ -81,7 +86,9 @@
                   class="curve__line"
                 />
               </picture>
-              <div class="z-pattern__content">
+            <div class="z-pattern__item z-pattern__item--odd">
+              <div class="wrapper">
+                <div class="z-pattern__content">
                 <div class="z-pattern__typography">
                   <h2 class="heading__secondary">Grow Together</h2>
                   <p class="paragraph">
@@ -96,20 +103,24 @@
                   class="z-pattern__image"
                 />
               </div>
+              </div>
             </div>
-            <div class="z-pattern__item">
-              <picture class="curve">
+             <picture class="curve curve--bottom">
                 <source
-                  srcset="./images/bg-section-top-mobile-2.svg"
+                  srcset="./images/bg-section-bottom-mobile-1.svg"
                   media="(max-width:676px)"
                 />
                 <img
-                  src="./images/bg-section-top-desktop-2.svg"
+                  src="./images/bg-section-bottom-desktop-1.svg"
                   alt=""
                   class="curve__line"
                 />
               </picture>
-              <div class="z-pattern__content">
+            </div>
+           <div class="z-pattern__container">
+             <div class="z-pattern__item">
+              <div class="wrapper">
+                <div class="z-pattern__content">
                 <img
                   src="./images/illustration-flowing-conversation.svg"
                   alt=""
@@ -124,20 +135,24 @@
                   </p>
                 </div>
               </div>
+              </div>
             </div>
-            <div class="z-pattern__item">
-              <picture class="curve">
-                <source
-                  srcset="./images/bg-section-top-mobile-1.svg"
-                  media="(max-width:676px)"
-                />
-                <img
-                  src="./images/bg-section-top-desktop-1.svg"
-                  alt=""
-                  class="curve__line"
-                />
-              </picture>
-              <div class="z-pattern__content">
+           </div>
+           <div class="z-pattern__container">
+             <picture class="curve curve--top">
+               <source
+                 srcset="./images/bg-section-top-mobile-2.svg"
+                 media="(max-width:676px)"
+               />
+               <img
+                 src="./images/bg-section-top-desktop-2.svg"
+                 alt=""
+                 class="curve__line"
+               />
+             </picture>
+             <div class="z-pattern__item z-pattern__item--odd">
+              <div class="wrapper">
+                <div class="z-pattern__content">
                 <div class="z-pattern__typography">
                   <h2 class="heading__secondary">Your Users</h2>
                   <p class="paragraph">
@@ -153,37 +168,43 @@
                 />
               </div>
             </div>
+          </div>
+          <picture class="curve curve--bottom">
+             <source
+               srcset="./images/bg-section-bottom-mobile-2.svg"
+               media="(max-width:676px)"
+             />
+             <img
+               src="./images/bg-section-bottom-desktop-2.svg"
+               alt=""
+               class="curve__line"
+             />
+           </picture>
+           </div>
           </section>
-          <section class="cta">
-            <picture class="curve">
-              <source
-                srcset="./images/bg-section-top-mobile-2.svg"
-                media="(max-width:676px)"
-              />
-              <img
-                src="./images/bg-section-top-desktop-2.svg"
-                alt=""
-                class="curve__line"
-              />
-            </picture>
+          <div class="wrapper">
+            <section class="cta">
             <h2 class="heading__secondary">Ready To Build Your Community?</h2>
             <a href="#" class="link link--cta"> Get Started For Free </a>
           </section>
+          </div>
         </main>
         <footer class="footer">
-          <picture class="curve">
+          <picture class="curve curve--top">
             <source
-              srcset="./images/bg-section-top-mobile-1.svg"
+              srcset="./images/bg-footer-top-mobile.svg"
               media="(max-width:676px)"
             />
             <img
-              src="./images/bg-section-top-desktop-1.svg"
+              src="./images/bg-footer-top-desktop.svg"
               alt=""
               class="curve__line"
             />
           </picture>
-          <div class="footer__content">
-            <div class="footer__description">
+          <div class="footer__row">
+            <div class="wrapper">
+              <div class="footer__content">
+                <div class="footer__description">
               <a href="#" class="logo">
                 <img src="./images/logo.svg" alt="" class="logo__image" />
               </a>
@@ -200,7 +221,7 @@
                   />
                   <p class="contact__title">
                     Phone:
-                    <a class="link" href="tel:+1-543-123-4568"
+                    <a class="link link--footer" href="tel:+1-543-123-4568"
                       >+1-543-123-4568</a
                     >
                   </p>
@@ -212,7 +233,7 @@
                     class="contact__icon"
                   />
                   <p class="contact__title">
-                    <a href="mailto:example@huddle.com">example@huddle.com</a>
+                    <a class="link link--footer" href="mailto:example@huddle.com">example@huddle.com</a>
                   </p>
                 </li>
               </ul>
@@ -244,17 +265,21 @@
               </ul>
             </div>
             <div class="newsletter">
-              <h3 class="newsletter__title">Newsletter</h3>
+              <div class="newsletter__content">
+                <h3 class="newsletter__title">Newsletter</h3>
               <p class="paragraph paragraph--footer">
                 To recieve tips on how to grow your community, sign up to our
                 weekly newsletter. We’ll never send you spam or pass on your
                 email address
               </p>
+              </div>
               <div class="newsletter__form">
                 <form class="form">
                   <input class="form__input" type="email" aria-label="Email" />
                   <button class="form__button" type="submit">Subscribe</button>
                 </form>
+              </div>
+            </div>
               </div>
             </div>
           </div>
